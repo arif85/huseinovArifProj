@@ -1,0 +1,8 @@
+2016-23-08 12:08:44  INFO [mainPack.TestLoginPageValid] : Driver was opened and maximized
+2016-23-08 12:08:49  INFO [mainPack.TestLoginPageValid] : Url Was Opened
+2016-23-08 12:08:50  INFO [mainPack.TestLoginPageValid] : Email field filled
+2016-23-08 12:08:50  INFO [mainPack.TestLoginPageValid] : Password field filled
+2016-23-08 12:08:52  INFO [mainPack.TestLoginPageValid] : Button 'Вход' clicked
+2016-23-08 12:08:53  INFO [mainPack.TestLoginPageValid] : Driver was closed
+2016-23-08 12:26:59  INFO [realtyPack.realtyLogin] : Test Done
+2016-23-08 12:30:37  INFO [realtyPack.realtyLogin] : Test Done

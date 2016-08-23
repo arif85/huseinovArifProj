@@ -685,7 +685,13 @@
       <option name="project" value="LOCAL" />
       <updated>1471944755801</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Some 2 Commit">
+      <created>1471944970061</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1471944970061</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -754,7 +760,8 @@
     <MESSAGE value="Realty Added" />
     <MESSAGE value="git final commit" />
     <MESSAGE value="Some Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some Commit" />
+    <MESSAGE value="Some 2 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some 2 Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

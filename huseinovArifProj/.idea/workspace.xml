@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="424bdb0c-90cf-4777-b746-a26e2c85ef18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huseinovArifProj.iml" afterPath="$PROJECT_DIR$/huseinovArifProj.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/realty/java/realtyPack/realtyLogin.java" afterPath="$PROJECT_DIR$/src/realty/java/realtyPack/realtyLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/realty/java/realtyPack/realtyLoginChrome.java" afterPath="$PROJECT_DIR$/src/realty/java/realtyPack/realtyLoginChrome.java" />
     </list>
     <ignored path="huseinovArifProj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -683,7 +679,13 @@
       <option name="project" value="LOCAL" />
       <updated>1471943468169</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Some Commit">
+      <created>1471944755801</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1471944755801</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -751,7 +753,8 @@
     <MESSAGE value="idea commit" />
     <MESSAGE value="Realty Added" />
     <MESSAGE value="git final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="git final commit" />
+    <MESSAGE value="Some Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

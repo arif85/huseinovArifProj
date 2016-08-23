@@ -52,7 +52,7 @@ public class realtyLoginChrome {
          */
         WebElement element1 = driver.findElement(By.xpath(".//div[@id='block-realty_ajaxblocks-login_block_or_menu']"));
         Actions action1 = new Actions(driver);
-        action.moveToElement(element1).build().perform();
+        action1.moveToElement(element1).build().perform();
         driver.findElement(By.xpath(".//a[@href='/logout']")).click();
         driver.navigate().refresh();
         driver.quit();

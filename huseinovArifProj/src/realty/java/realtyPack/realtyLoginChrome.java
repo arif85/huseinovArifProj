@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -22,7 +23,7 @@ public class realtyLoginChrome {
         driver.get("http://100realty.ua/");
         driver.findElement(By.xpath(".//a[@id='enter']")).click();
         driver.findElement(By.id("edit-name")).sendKeys("huseinov.arif@gmail.com");
-        driver.findElement(By.id("edit-pass")).sendKeys("mCcak7ozHK");
+        driver.findElement(By.id("edit-pass")).sendKeys("3463090");
         driver.findElement(By.id("edit-submit")).click();
         WebDriverWait wait = new WebDriverWait(driver,30);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath(".//div[@id='block-realty_ajaxblocks-login_block_or_menu']"))));

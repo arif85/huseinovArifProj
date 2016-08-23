@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="424bdb0c-90cf-4777-b746-a26e2c85ef18" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mainPack/Test.java" afterPath="$PROJECT_DIR$/src/test/java/mainPack/Test.java" />
     </list>
     <ignored path="huseinovArifProj.iws" />

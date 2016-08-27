@@ -6,12 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.interactions.Action;
+//import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.interactions.Action;
+//import org.openqa.selenium.support.ui.ExpectedConditions;
+//import org.openqa.selenium.support.ui.WebDriverWait;
+//import org.openqa.selenium.interactions.Action;
 
 import java.util.concurrent.TimeUnit;
 
@@ -23,7 +23,7 @@ public class realtyLoginChrome {
 
     public void RealtyLogin() {
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://100realty.ua/");
         driver.findElement(By.xpath(".//a[@id='enter']")).click();
         driver.findElement(By.id("edit-name")).sendKeys("huseinov.arif@gmail.com");

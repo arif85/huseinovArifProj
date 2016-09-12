@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="424bdb0c-90cf-4777-b746-a26e2c85ef18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/MainPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/MyApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageMessageSpasibo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueOne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueTwo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/libs/ExcelDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/libs/SpreadsheetData.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/qalight.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/iskustnicaPack/RegistrationPage.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueThree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageKuryeromMoskva.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageKuryeromMoskvockayaOblast.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPack/TestSuiteRegistraionOnIskustnicaRu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huseinovArifProj.iml" afterPath="$PROJECT_DIR$/huseinovArifProj.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/qalight.log" afterPath="$PROJECT_DIR$/log/qalight.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/MainPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/MyApp.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/MyApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageMessageSpasibo.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageMessageSpasibo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueOne.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueOne.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueTwo.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueTwo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/iskustnicaPack/registrationPageSamovivoz.java" afterPath="$PROJECT_DIR$/src/test/java/iskustnicaPack/registrationPageSamovivoz.java" />
     </list>
     <ignored path="huseinovArifProj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,65 +34,7 @@
     <favorites_list name="huseinovArifProj" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationPageValueOne.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationPageValueTwo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7667239">
-              <caret line="216" column="8" selection-start-line="216" selection-start-column="8" selection-end-line="216" selection-end-column="8" />
-              <folding>
-                <element signature="method#RegistrationPageValueTwo#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#isRegistrationPageLoaded#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#selectDeliveryKuryeromMoskva#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#inputTextIntoFamiliaField#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#inputTextIntoImiaField#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#inputTextIntoOtchestvoField#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#selectDropDownDen#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#selectDropDownMesias#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#selectDropDownGod#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#inputTestIntoEmailField#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#inputTextIntoParolField#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#inputTextIntoPovtoriteParolField#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#inputTextIntoTelefonMobilniyField#0;class#RegistrationPageValueTwo#0" expanded="false" />
-                <element signature="method#inputTextIntoTelefonDomashniyIliRabochiy#0;class#RegistrationPageValueTwo#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/MyApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,13 +69,17 @@
         <option value="$PROJECT_DIR$/src/test/java/iskustnicaPack/RegistrationPageSamovivoz.java" />
         <option value="$PROJECT_DIR$/src/main/java/iskustnicaPack/RegistrationPageValueOne.java" />
         <option value="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageCourierMoscow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageMessageSpasibo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueOne.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/IskustnicaPack/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageMessageSpasibo.java" />
         <option value="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageSamovivoz.java" />
-        <option value="$PROJECT_DIR$/src/main/java/IskustnicaPack/MyApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IskustnicaPack/MyApp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageKuryeromMoskva.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IskustnicaPack/TestSuiteRegistraionOnIskustnicaRu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageKuryeromMoskvockayaOblast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueThree.java" />
       </list>
     </option>
   </component>
@@ -149,7 +94,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="643" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -176,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -378,8 +325,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,49 +333,23 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspaceHuseinov\huseinovArifProj\src\main\java" />
-      <recent name="D:\workspaceHuseinov\huseinovArifProj\src\main\java\IskustnicaPack" />
-      <recent name="D:\workspaceHuseinov\huseinovArifProj\src\realty\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="IskustnicaPack" />
-      <recent name="mainPack" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspaceHuseinov\huseinovArifProj\src\main\java" />
       <recent name="D:\workspaceHuseinov\huseinovArifProj\src\realty\java\realtyPack" />
       <recent name="D:\workspaceHuseinov\huseinovArifProj\.idea" />
       <recent name="D:\workspaceHuseinov\huseinovArifProj\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="IskustnicaPack" />
+      <recent name="mainPack" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspaceHuseinov\huseinovArifProj\src\main\java" />
+      <recent name="D:\workspaceHuseinov\huseinovArifProj\src\main\java\IskustnicaPack" />
+      <recent name="D:\workspaceHuseinov\huseinovArifProj\src\realty\java" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.realtyLogin">
-    <configuration default="false" name="TestLoginPageValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="mainPack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="huseinovArifProj" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="mainPack" />
-      <option name="MAIN_CLASS_NAME" value="mainPack.TestLoginPageValid" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestSuiteRegistraionOnIskustnicaRu">
     <configuration default="false" name="realtyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -483,29 +402,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="realtyPack in huseinovArifProj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="huseinovArifProj" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="directory" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <dir value="$PROJECT_DIR$/src/realty/java/realtyPack" />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="RegistrationPageSamovivoz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RegistrationPageKuryeromMoskva" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="IskustnicaPack.*" />
@@ -516,12 +413,64 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="IskustnicaPack" />
-      <option name="MAIN_CLASS_NAME" value="IskustnicaPack.RegistrationPageSamovivoz" />
-      <option name="METHOD_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IskustnicaPack.RegistrationPageKuryeromMoskva" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSuiteRegistraionOnIskustnicaRu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="IskustnicaPack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="huseinovArifProj" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="IskustnicaPack" />
+      <option name="MAIN_CLASS_NAME" value="IskustnicaPack.TestSuiteRegistraionOnIskustnicaRu" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RegistrationPageKuryeromMoskvockayaOblast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="IskustnicaPack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="huseinovArifProj" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="IskustnicaPack" />
+      <option name="MAIN_CLASS_NAME" value="IskustnicaPack.RegistrationPageKuryeromMoskvockayaOblast" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -837,20 +786,20 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestLoginPageValid" />
+      <item index="0" class="java.lang.String" itemvalue="Maven.MYTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.realtyLogin" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.realtyLoginChrome" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.realtyPack in huseinovArifProj" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RegistrationPageSamovivoz" />
-      <item index="5" class="java.lang.String" itemvalue="Maven.MYTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RegistrationPageKuryeromMoskva" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestSuiteRegistraionOnIskustnicaRu" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.RegistrationPageKuryeromMoskvockayaOblast" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.realtyLogin" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RegistrationPageSamovivoz" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.realtyLoginChrome" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.realtyPack in huseinovArifProj" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestLoginPageValid" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSuiteRegistraionOnIskustnicaRu" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RegistrationPageKuryeromMoskvockayaOblast" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RegistrationPageKuryeromMoskva" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.realtyLoginChrome" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.realtyLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -925,39 +874,45 @@
       <option name="project" value="LOCAL" />
       <updated>1472304715104</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Exam Project Commit">
+      <created>1473344846305</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1473344846305</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationPageSamovivoz - 2016.09.08 at 12h 43m 34s.xml">
-      <configuration name="RegistrationPageSamovivoz" configurationId="JUnit" />
+    <history-entry file="RegistrationPageKuryeromMoskva - 2016.09.12 at 15h 32m 26s.xml">
+      <configuration name="RegistrationPageKuryeromMoskva" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationPageSamovivoz - 2016.09.08 at 12h 43m 36s.xml">
-      <configuration name="RegistrationPageSamovivoz" configurationId="JUnit" />
+    <history-entry file="RegistrationPageKuryeromMoskvockayaOblast - 2016.09.12 at 16h 54m 48s.xml">
+      <configuration name="RegistrationPageKuryeromMoskvockayaOblast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationPageSamovivoz - 2016.09.08 at 12h 44m 41s.xml">
-      <configuration name="RegistrationPageSamovivoz" configurationId="JUnit" />
+    <history-entry file="RegistrationPageKuryeromMoskvockayaOblast - 2016.09.12 at 16h 56m 05s.xml">
+      <configuration name="RegistrationPageKuryeromMoskvockayaOblast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationPageSamovivoz - 2016.09.08 at 13h 12m 53s.xml">
-      <configuration name="RegistrationPageSamovivoz" configurationId="JUnit" />
+    <history-entry file="TestSuiteRegistraionOnIskustnicaRu - 2016.09.12 at 15h 42m 53s.xml">
+      <configuration name="TestSuiteRegistraionOnIskustnicaRu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationPageSamovivoz - 2016.09.08 at 13h 17m 04s.xml">
-      <configuration name="RegistrationPageSamovivoz" configurationId="JUnit" />
+    <history-entry file="TestSuiteRegistraionOnIskustnicaRu - 2016.09.12 at 15h 45m 03s.xml">
+      <configuration name="TestSuiteRegistraionOnIskustnicaRu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationPageSamovivoz - 2016.09.08 at 13h 19m 52s.xml">
-      <configuration name="RegistrationPageSamovivoz" configurationId="JUnit" />
+    <history-entry file="TestSuiteRegistraionOnIskustnicaRu - 2016.09.12 at 15h 49m 40s.xml">
+      <configuration name="TestSuiteRegistraionOnIskustnicaRu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationPageSamovivoz - 2016.09.08 at 13h 23m 55s.xml">
-      <configuration name="RegistrationPageSamovivoz" configurationId="JUnit" />
+    <history-entry file="TestSuiteRegistraionOnIskustnicaRu - 2016.09.12 at 16h 38m 14s.xml">
+      <configuration name="TestSuiteRegistraionOnIskustnicaRu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationPageSamovivoz - 2016.09.08 at 13h 28m 22s.xml">
-      <configuration name="RegistrationPageSamovivoz" configurationId="JUnit" />
+    <history-entry file="TestSuiteRegistraionOnIskustnicaRu - 2016.09.12 at 16h 45m 31s.xml">
+      <configuration name="TestSuiteRegistraionOnIskustnicaRu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationPageSamovivoz - 2016.09.08 at 13h 36m 35s.xml">
-      <configuration name="RegistrationPageSamovivoz" configurationId="JUnit" />
+    <history-entry file="TestSuiteRegistraionOnIskustnicaRu - 2016.09.12 at 16h 51m 48s.xml">
+      <configuration name="TestSuiteRegistraionOnIskustnicaRu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="realtyLogin - 2016.09.08 at 16h 07m 59s.xml">
-      <configuration name="realtyLogin" configurationId="JUnit" />
+    <history-entry file="TestSuiteRegistraionOnIskustnicaRu - 2016.09.12 at 16h 59m 25s.xml">
+      <configuration name="TestSuiteRegistraionOnIskustnicaRu" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -970,21 +925,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="643" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2618658" sideWeight="0.48184568" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25686276" sideWeight="0.47881997" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5319149" sideWeight="0.5181543" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7882353" sideWeight="0.52420574" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39215687" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5139116" sideWeight="0.48184568" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39116204" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9607843" sideWeight="0.47579426" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39411765" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -995,21 +949,22 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2618658" sideWeight="0.48184568" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2569558" sideWeight="0.47881997" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40784314" sideWeight="0.5181543" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5137255" sideWeight="0.52118003" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39215687" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8882353" sideWeight="0.48487142" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39116204" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13256955" sideWeight="0.47881997" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39411765" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1018,7 +973,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1043,7 +998,8 @@
     <MESSAGE value="Google Chrome Test works correct" />
     <MESSAGE value="Google Chrome Test works correct1" />
     <MESSAGE value="Exam Project Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exam Project Init" />
+    <MESSAGE value="Exam Project Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exam Project Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1054,6 +1010,53 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#selectDeliveryKuryeromMoskva#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="method#inputTextIntoFamiliaField#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="method#inputTextIntoImiaField#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="method#inputTextIntoOtchestvoField#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="method#selectDropDownDen#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="method#selectDropDownMesias#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="method#selectDropDownGod#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="method#inputTextIntoParolField#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="method#inputTextIntoPovtoriteParolField#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="method#inputTextIntoTelefonMobilniyField#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="method#inputTextIntoTelefonDomashniyIliRabochiyField#0;class#RegistrationPageValueTwo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/MyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1292,13 +1295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/qalight.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.53.1/selenium-api-2.53.1.jar!/org/openqa/selenium/WebElement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3627451">
@@ -1317,7 +1313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34108528">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,24 +1328,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12521441">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/log/qalight.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.049418606">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageSamovivoz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="66" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1359,37 +1358,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageMessageSpasibo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7084048">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4741036">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/MyApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+        <state vertical-scroll-proportion="0.7406639">
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueOne.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageKuryeromMoskva.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
-          <folding />
+          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IskustnicaPack/TestSuiteRegistraionOnIskustnicaRu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#inputTextIntoFamiliaField#0;class#RegistrationPageValueThree#0" expanded="false" />
+            <element signature="method#inputTextIntoImiaField#0;class#RegistrationPageValueThree#0" expanded="false" />
+            <element signature="method#inputTextIntoOtchestvoField#0;class#RegistrationPageValueThree#0" expanded="false" />
+            <element signature="method#selectDropDownMesias#0;class#RegistrationPageValueThree#0" expanded="false" />
+            <element signature="method#selectDropDownGod#0;class#RegistrationPageValueThree#0" expanded="false" />
+            <element signature="method#inputTextIntoParolField#0;class#RegistrationPageValueThree#0" expanded="false" />
+            <element signature="method#inputTextIntoPovtoriteParolField#0;class#RegistrationPageValueThree#0" expanded="false" />
+            <element signature="method#inputTextIntoTelefonDomashniyIliRabochiyField#0;class#RegistrationPageValueThree#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7667239">
-          <caret line="216" column="8" selection-start-line="216" selection-start-column="8" selection-end-line="216" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="266" column="43" selection-start-line="266" selection-start-column="43" selection-end-line="266" selection-end-column="43" />
           <folding>
-            <element signature="method#RegistrationPageValueTwo#0;class#RegistrationPageValueTwo#0" expanded="false" />
-            <element signature="method#isRegistrationPageLoaded#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#selectDeliveryKuryeromMoskva#0;class#RegistrationPageValueTwo#0" expanded="false" />
             <element signature="method#inputTextIntoFamiliaField#0;class#RegistrationPageValueTwo#0" expanded="false" />
             <element signature="method#inputTextIntoImiaField#0;class#RegistrationPageValueTwo#0" expanded="false" />
@@ -1397,11 +1433,21 @@
             <element signature="method#selectDropDownDen#0;class#RegistrationPageValueTwo#0" expanded="false" />
             <element signature="method#selectDropDownMesias#0;class#RegistrationPageValueTwo#0" expanded="false" />
             <element signature="method#selectDropDownGod#0;class#RegistrationPageValueTwo#0" expanded="false" />
-            <element signature="method#inputTestIntoEmailField#0;class#RegistrationPageValueTwo#0" expanded="false" />
             <element signature="method#inputTextIntoParolField#0;class#RegistrationPageValueTwo#0" expanded="false" />
             <element signature="method#inputTextIntoPovtoriteParolField#0;class#RegistrationPageValueTwo#0" expanded="false" />
             <element signature="method#inputTextIntoTelefonMobilniyField#0;class#RegistrationPageValueTwo#0" expanded="false" />
-            <element signature="method#inputTextIntoTelefonDomashniyIliRabochiy#0;class#RegistrationPageValueTwo#0" expanded="false" />
+            <element signature="method#inputTextIntoTelefonDomashniyIliRabochiyField#0;class#RegistrationPageValueTwo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageKuryeromMoskvockayaOblast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10580913">
+          <caret line="76" column="83" selection-start-line="76" selection-start-column="83" selection-end-line="76" selection-end-column="83" />
+          <folding>
+            <element signature="e#4285#4286#0" expanded="true" />
+            <element signature="e#4370#4371#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -18,7 +18,7 @@ public class RegistrationPageValueOne {
     Logger log;
 
 
-    @FindBy(xpath = ".//h1[contains(text(),'Регистрация')]")
+    @FindBy(xpath = ".//img[@src='/images/10.gif']")
     WebElement registrationPageLoaded;
     @FindBy(xpath = ".//input[@value='1']")
     WebElement deliveryType;

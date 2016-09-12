@@ -14,7 +14,7 @@ public class MainPage {
     WebDriver driver;
     Logger log;
 
-    @FindBy(xpath = ".//span/font[contains(text(),'Добро пожаловать')]")
+    @FindBy(id = "MainTD")
     WebElement mainPageLoad;
     @FindBy(xpath = ".//a[@href='/register']")
     WebElement registrationLink;

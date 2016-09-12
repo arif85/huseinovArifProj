@@ -10,13 +10,13 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
 
-public class RegistrationPageValueTwo {
+public class RegistrationPageValueThree {
     WebDriver driver;
     Logger log;
 
     @FindBy(xpath = ".//img[@src='/images/10.gif']")
     WebElement registrationPageLoaded;
-    @FindBy(xpath = ".//input[@value='2']")
+    @FindBy(xpath = ".//input[@value='3']")
     WebElement deliveryType;
     @FindBy(name = "family")
     WebElement familia;
@@ -43,7 +43,7 @@ public class RegistrationPageValueTwo {
     @FindBy(name = "phone[work]")
     WebElement telefonDopolnitelniy;
     @FindBy(name = "adress[main]")
-    WebElement adress;
+    WebElement address;
     @FindBy(name = "howadres")
     WebElement kakProyexat;
     @FindBy(name = "adress[add]")
@@ -56,12 +56,11 @@ public class RegistrationPageValueTwo {
     WebElement knopkaRegistirovat;
 
 
-    public RegistrationPageValueTwo(WebDriver driver) {
+    public RegistrationPageValueThree(WebDriver driver) {
         this.driver = driver;
         log = Logger.getLogger(getClass());
         PageFactory.initElements(driver, this);
     }
-
     public boolean isRegistrationPageLoaded() {
         try {
             boolean isRegisrationFormLoad = registrationPageLoaded.isDisplayed();
@@ -73,11 +72,11 @@ public class RegistrationPageValueTwo {
         }
     }
 
-    public void selectDeliveryKuryeromMoskva() {
+    public void selectDeliveryKuryeromMoskovskayaOblast() {
         try {
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             deliveryType.click();
-            log.info("Delivery type 'Kuryerom Moskva' (radio button) selected");
+            log.info("Delivery type 'Kuryerom Moskovskaya Oblast' (radio button) selected");
         } catch (Exception e) {
             log.error("Selection delivery type error");
             Assert.fail("Selection delivery type error");
@@ -218,8 +217,8 @@ public class RegistrationPageValueTwo {
 
     public void inputTextIntoAdresTextArea(String adresMain) {
         try {
-            adress.clear();
-            adress.sendKeys(adresMain);
+            address.clear();
+            address.sendKeys(adresMain);
             log.info(adresMain + " Adres was inputed");
         } catch (Exception e) {
             log.info("Adres was not inputed");
@@ -272,8 +271,8 @@ public class RegistrationPageValueTwo {
             knopkaRegistirovat.click();
             log.info("Button 'Registrirovat' was clicked");
         }catch(Exception e){
-            log.error("Failed to click button'Registrirovat");
-            Assert.fail("Failed to click button'Registrirovat");
+            log.error("Failed to click button'Registrirovat'");
+            Assert.fail("Failed to click button'Registrirovat'");
         }
     }
 }

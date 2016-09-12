@@ -11,7 +11,7 @@ import org.junit.Assert;
 public class RegistrationPageMessageSpasibo {
     WebDriver driver;
     Logger log;
-    @FindBy(xpath = ".//*[contains(text(),'Спасибо!')]")
+    @FindBy(xpath = ".//h3[@style='color: green;']")
     WebElement messageSpasibo;
 
     public RegistrationPageMessageSpasibo(WebDriver driver) {

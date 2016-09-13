@@ -14,11 +14,11 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Collection;
-
+import static libs.ConfigData.getCfgValue;
 @RunWith(value = Parameterized.class)
 public class RegistrationPageKuryeromMoskvockayaOblast {
     WebDriver driver = new ChromeDriver();
-    MyApp myApp =  new MyApp(driver);
+    MyApp myApp = new MyApp(driver);
 
     String familia;
     String imia;
@@ -40,39 +40,41 @@ public class RegistrationPageKuryeromMoskvockayaOblast {
     public RegistrationPageKuryeromMoskvockayaOblast(String familia, String imia, String otchestvo, String den, String mesiac,
                                                      String god, String email, String pass, String repass, String cellphone,
                                                      String homeOrWorkPhone, String extraPhone, String address, String howaddress,
-                                                     String addressExtra, String howAddressExtra){
+                                                     String addressExtra, String howAddressExtra) {
         super();
-        this.familia=familia;
-        this.imia=imia;
-        this.otchestvo=otchestvo;
-        this.den=den;
-        this.mesiac=mesiac;
-        this.god=god;
-        this.email=email;
-        this.pass=pass;
-        this.repass=repass;
-        this.cellphone=cellphone;
+        this.familia = familia;
+        this.imia = imia;
+        this.otchestvo = otchestvo;
+        this.den = den;
+        this.mesiac = mesiac;
+        this.god = god;
+        this.email = email;
+        this.pass = pass;
+        this.repass = repass;
+        this.cellphone = cellphone;
         this.homeOrWorkPhone = homeOrWorkPhone;
         this.extraPhone = extraPhone;
-        this.address=address;
+        this.address = address;
         this.howaddress = howaddress;
         this.addressExtra = addressExtra;
         this.howAddressExtra = howAddressExtra;
     }
+
     @Parameterized.Parameters
-    public static Collection testData() throws IOException{
-        InputStream spreadsheet = new FileInputStream("src/main/java/testData.xls");
-        return new SpreadsheetData(spreadsheet,"KuryeromMoskovskayaOblast").getData();
+    public static Collection testData() throws IOException {
+        InputStream spreadsheet = new FileInputStream(getCfgValue("DATA_FILE"));
+        return new SpreadsheetData(spreadsheet, "KuryeromMoskovskayaOblast").getData();
     }
 
     @Before
-    public void MainPageload(){
+    public void MainPageload() {
         myApp.mainPage.OpenBrowserAndLoadMainPage();
-        Assert.assertTrue("Wrong URL inputed",myApp.mainPage.isMainPageLoaded());
+        Assert.assertTrue("Wrong URL inputed", myApp.mainPage.isMainPageLoaded());
         myApp.mainPage.GoToRegistrationPage();
     }
+
     @Test
-    public void registrationPageKuryeromMoskva(){
+    public void registrationPageKuryeromMoskva() {
         myApp.registrationPageValueThree.isRegistrationPageLoaded();
         myApp.registrationPageValueThree.selectDeliveryKuryeromMoskovskayaOblast();
         myApp.registrationPageValueThree.inputTextIntoFamiliaField(familia);
@@ -93,11 +95,12 @@ public class RegistrationPageKuryeromMoskvockayaOblast {
         myApp.registrationPageValueThree.inputTextIntoKakProyaxatDopolnitelniyTextArea(howAddressExtra);
         myApp.registrationPageValueThree.clickButtonDaleeEnter();
         myApp.registrationPageValueThree.clickButtonRegistrirvat();
-        Assert.assertTrue("Registration failed",myApp.registrationPageMessageSpasibo.isMessageSpasiboLoaded());
+        Assert.assertTrue("Registration failed", myApp.registrationPageMessageSpasibo.isMessageSpasiboLoaded());
     }
+
     @After
 
-    public void closePageAndBrowser(){
+    public void closePageAndBrowser() {
         myApp.registrationPageMessageSpasibo.CloseRegistrationPageAndWindow();
     }
 }

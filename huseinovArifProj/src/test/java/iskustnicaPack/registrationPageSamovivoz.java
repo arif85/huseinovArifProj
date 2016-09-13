@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.sql.DatabaseMetaData;
 import java.util.Collection;
-
+import static libs.ConfigData.getCfgValue;
 @RunWith(value = Parameterized.class)
 public class RegistrationPageSamovivoz {
     WebDriver driver = new ChromeDriver();
@@ -48,7 +48,7 @@ public class RegistrationPageSamovivoz {
     }
     @Parameterized.Parameters
     public  static Collection testData()throws IOException{
-        InputStream spreadsheet = new FileInputStream("src/main/java/testData.xls");
+        InputStream spreadsheet = new FileInputStream(getCfgValue("DATA_FILE"));
         return new SpreadsheetData(spreadsheet,"Samovivoz").getData();
     }
     @Before

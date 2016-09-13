@@ -12,6 +12,8 @@ public class MyApp {
     public RegistrationPageMessageSpasibo registrationPageMessageSpasibo;
     public RegistrationPageValueTwo registrationPageValueTwo;
     public RegistrationPageValueThree registrationPageValueThree;
+    public RegistrationPageValueFour registrationPageValueFour;
+    public RegistrationPageValueFive registrationPageValueFive;
 
 public MyApp(WebDriver driver){
     this.driver = driver;
@@ -20,5 +22,7 @@ public MyApp(WebDriver driver){
     registrationPageMessageSpasibo = new RegistrationPageMessageSpasibo(driver);
     registrationPageValueTwo = new RegistrationPageValueTwo(driver);
     registrationPageValueThree = new RegistrationPageValueThree(driver);
+    registrationPageValueFour = new RegistrationPageValueFour(driver);
+    registrationPageValueFive = new RegistrationPageValueFive(driver);
 }
 }

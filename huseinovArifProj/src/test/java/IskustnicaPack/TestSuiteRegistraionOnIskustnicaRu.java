@@ -8,7 +8,10 @@ import org.junit.runners.Suite;
         {
                 RegistrationPageSamovivoz.class,
                 RegistrationPageKuryeromMoskva.class,
-                RegistrationPageKuryeromMoskvockayaOblast.class
+                RegistrationPageKuryeromMoskvockayaOblast.class,
+                RegistrationPagePochtoyRossiiKuryeromVRegioniDomSKvartiroy.class,
+                RegistrationPagePochtoyRossiiKuryeromVRegioniChastniyDom.class
+
 
         }
 )

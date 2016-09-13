@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.concurrent.TimeUnit;
 
+import static libs.ConfigData.getCfgValue;
 
 public class MainPage {
     WebDriver driver;
@@ -30,7 +31,8 @@ public class MainPage {
         try {
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.get("http://iskusnitsa.ru/");
+            //driver.get("http://iskusnitsa.ru/");
+            driver.get(getCfgValue("SITE_URL"));
             log.info("Browser and main page were opened");
         } catch (Exception e) {
             log.info("Browser or main page were not opened");

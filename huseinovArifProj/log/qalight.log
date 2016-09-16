@@ -2340,3 +2340,19 @@
 2016-16-09 20:31:12  INFO [IskustnicaPack.RegistrationPageMessageSpasibo] : WebPage and Browser closed
 2016-16-09 20:31:13  INFO [IskustnicaPack.RegistrationPageValueThree] : Button 'Registrirovat' was clicked
 2016-16-09 20:31:14  INFO [IskustnicaPack.RegistrationPageMessageSpasibo] : WebPage and Browser closed
+2016-16-09 21:11:16  INFO [IskustnicaPack.MainPage] : Browser and main page were opened
+2016-16-09 21:11:24  INFO [IskustnicaPack.MainPage] : Registration link was clicked
+2016-16-09 21:11:24  INFO [IskustnicaPack.RegistrationPageValueOne] : Delivery type 'Samovivoz' (radio button) selected
+2016-16-09 21:11:25  INFO [IskustnicaPack.RegistrationPageValueOne] : ivanov Familia was Inputed
+2016-16-09 21:11:26  INFO [IskustnicaPack.RegistrationPageValueOne] : ivan Imia was Inputed
+2016-16-09 21:11:27  INFO [IskustnicaPack.RegistrationPageValueOne] : ivanovic Otchestvo was Inputed
+2016-16-09 21:11:28  INFO [IskustnicaPack.RegistrationPageValueOne] : 01 den selected
+2016-16-09 21:11:28  INFO [IskustnicaPack.RegistrationPageValueOne] : 02 mesiac selected
+2016-16-09 21:11:29  INFO [IskustnicaPack.RegistrationPageValueOne] : 1945 god selected
+2016-16-09 21:11:30  INFO [IskustnicaPack.RegistrationPageValueOne] : somemail@bk.ru E-mail inputed
+2016-16-09 21:11:30  INFO [IskustnicaPack.RegistrationPageValueOne] : test1234 parol inputed
+2016-16-09 21:11:31  INFO [IskustnicaPack.RegistrationPageValueOne] : test1234 repass inputed
+2016-16-09 21:11:31  INFO [IskustnicaPack.RegistrationPageValueOne] : +0909090 cellPhone inputed
+2016-16-09 21:11:32  INFO [IskustnicaPack.RegistrationPageValueOne] : Button '<< Dalee/Enter >>' was clicked
+2016-16-09 21:11:55  INFO [IskustnicaPack.RegistrationPageValueOne] : Button 'Registrirovat' was clicked 
+2016-16-09 21:11:57  INFO [IskustnicaPack.RegistrationPageMessageSpasibo] : WebPage and Browser closed

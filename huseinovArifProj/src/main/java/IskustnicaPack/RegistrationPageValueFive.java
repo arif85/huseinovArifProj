@@ -23,7 +23,7 @@ public class RegistrationPageValueFive {
     }
     @FindBy(xpath = ".//img[@src='/images/10.gif']")
     WebElement registrationPageLoaded;
-    @FindBy(xpath = ".//input[@value='4']")
+    @FindBy(xpath = ".//input[@value='5']")
     WebElement deliveryType;
     @FindBy(name = "family")
     WebElement familia;
@@ -59,7 +59,7 @@ public class RegistrationPageValueFive {
     WebElement korpusNomerIliProcherkEsliNet;
     @FindBy(name = "otheraddr[build]")
     WebElement stroyeniyeNomerIliProcherkEsliNet;
-    @FindBy(name = "otheraddr[flat]")
+    @FindBy(name = "adress[add]")
     WebElement adresDopolnitelniy;
     @FindBy(xpath = ".//input[@value='<< Далее/Enter >>']")
     WebElement knopkaDaleeEnter;
@@ -83,7 +83,7 @@ public class RegistrationPageValueFive {
 
     public void selectDeliveryTypePochtoyRossiiKuryeromVRegioniChastniyDom() {
         try {
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             deliveryType.click();
             log.info("Delivery type 'Pochtoy Rossii Kuryerom V Regioni Chastniy Dom' (radio button) was selected");
         } catch (Exception e) {
@@ -96,7 +96,7 @@ public class RegistrationPageValueFive {
         try {
             familia.clear();
             familia.sendKeys(familya);
-            log.info(familya + " was inputed");
+            log.info(familya + " Familia was inputed");
         } catch (Exception e) {
             log.info("Familia was not inputed");
             Assert.fail("Familia was not inputed");
@@ -107,7 +107,7 @@ public class RegistrationPageValueFive {
         try {
             imia.clear();
             imia.sendKeys(imya);
-            log.info(imya + " was inputed");
+            log.info(imya + " Imia was inputed");
         } catch (Exception e) {
             log.info("Imia was not inputed");
             Assert.fail("Imia was not inputed");
@@ -118,7 +118,7 @@ public class RegistrationPageValueFive {
         try {
             otchestvo.clear();
             otchestvo.sendKeys(ot4hestvo);
-            log.info(ot4hestvo + " was inputed");
+            log.info(ot4hestvo + " Otchestvo was inputed");
         } catch (Exception e) {
             log.info("Otchestvo was not inputed");
             Assert.fail("Otchestvo was not inputed");
@@ -129,7 +129,7 @@ public class RegistrationPageValueFive {
         try {
             Select select = new Select(den);
             select.selectByVisibleText(day);
-            log.info(day + " was selected");
+            log.info(day + " Den was selected");
         } catch (Exception e) {
             log.info("Failed to select den");
             Assert.fail("Failed to select den");
@@ -140,7 +140,7 @@ public class RegistrationPageValueFive {
         try {
             Select select = new Select(mesiac);
             select.selectByVisibleText(month);
-            log.info(month + " was selected");
+            log.info(month + " Mesiac was selected");
         } catch (Exception e) {
             log.info("Failed to select mesiac");
             Assert.fail("Failed to select mesiac");
@@ -151,7 +151,7 @@ public class RegistrationPageValueFive {
         try {
             Select select = new Select(god);
             select.selectByVisibleText(year);
-            log.info(year + " was selected");
+            log.info(year + " God was selected");
         } catch (Exception e) {
             log.info("Failed to select god");
             Assert.fail("Failed to select god");
@@ -162,7 +162,7 @@ public class RegistrationPageValueFive {
         try {
             pochta.clear();
             pochta.sendKeys(mail);
-            log.info(mail + " was inputed");
+            log.info(mail + " Pochta was inputed");
         } catch (Exception e) {
             log.info("Pochta was not inputed");
             Assert.fail("Pochta was not inputed");
@@ -173,7 +173,7 @@ public class RegistrationPageValueFive {
         try {
             parol.clear();
             parol.sendKeys(pass);
-            log.info(pass + " was inputed");
+            log.info(pass + " Parol was inputed");
         } catch (Exception e) {
             log.info("Parol was not inputed");
             Assert.fail("Parol was not inputed");
@@ -184,7 +184,7 @@ public class RegistrationPageValueFive {
         try {
             povtoriteParol.clear();
             povtoriteParol.sendKeys(repass);
-            log.info(repass + " was inputed");
+            log.info(repass + " Povtorite parol was inputed");
         } catch (Exception e) {
             log.info("Povtorite parol was not inputed");
             Assert.fail("Povtorite parol was not inputed");
@@ -195,7 +195,7 @@ public class RegistrationPageValueFive {
         try {
             mobilniyTelefon.clear();
             mobilniyTelefon.sendKeys(cellphone);
-            log.info(cellphone + " was inputed");
+            log.info(cellphone + " Telefon mobilniy was inputed");
         } catch (Exception e) {
             log.info("Telefon mobilniy was not inputed");
             Assert.fail("Telefon mobilniy was not inputed");
@@ -206,7 +206,7 @@ public class RegistrationPageValueFive {
         try {
             pochtoviyIndex.clear();
             pochtoviyIndex.sendKeys(postIndex);
-            log.info(postIndex + " was inputed");
+            log.info(postIndex + " Pochtoviy index was inputed");
         } catch (Exception e) {
             log.info("Pochtoviy index was not inputed");
             Assert.fail("Pochtoviy index was not inputed");
@@ -217,7 +217,7 @@ public class RegistrationPageValueFive {
         try {
             stranaOblastKray.clear();
             stranaOblastKray.sendKeys(region);
-            log.info(region + " was inputed");
+            log.info(region + " Strana, oblast, kray were inputed");
         } catch (Exception e) {
             log.info("Strana, oblast, kray were not inputed");
             Assert.fail("Strana, oblast, kray were not inputed");
@@ -228,7 +228,7 @@ public class RegistrationPageValueFive {
         try {
             gorod.clear();
             gorod.sendKeys(city);
-            log.info(city + " was inputed");
+            log.info(city + " Gorod was inputed");
         } catch (Exception e) {
             log.info("Gorod was not inputed");
             Assert.fail("Gorod was not inputed");
@@ -239,10 +239,10 @@ public class RegistrationPageValueFive {
         try {
             ulica.clear();
             ulica.sendKeys(street);
-            log.info(street + " was inputed");
+            log.info(street + " Ulica was inputed");
         } catch (Exception e) {
-            log.info("Gorod was not inputed");
-            Assert.fail("Gorod was not inputed");
+            log.info("Ulica was not inputed");
+            Assert.fail("Ulica was not inputed");
         }
     }
 
@@ -250,7 +250,7 @@ public class RegistrationPageValueFive {
         try{
             domNomer.clear();
             domNomer.sendKeys(houseNumber);
-            log.info(houseNumber+" was inputed");
+            log.info(houseNumber+" Dom(nomer) was inputed");
         }catch (Exception e ){
             log.info("Dom(nomer) was not inputed");
             Assert.fail("Dom(nomer) was not inputed");
@@ -261,7 +261,7 @@ public class RegistrationPageValueFive {
         try{
             korpusNomerIliProcherkEsliNet.clear();
             korpusNomerIliProcherkEsliNet.sendKeys(corpus);
-            log.info(corpus+" was inputed");
+            log.info(corpus+" Korpus was inputed");
         }catch (Exception e){
             log.info("Korpus was not inputed");
             Assert.fail("Korpus was not inputed");
@@ -272,7 +272,7 @@ public class RegistrationPageValueFive {
         try{
             stroyeniyeNomerIliProcherkEsliNet.clear();
             stroyeniyeNomerIliProcherkEsliNet.sendKeys(building);
-            log.info(building+ "was inputed");
+            log.info(building+ " Stroyeniye was inputed");
         }catch (Exception e){
             log.info("Stroyeniye was not inputed");
             Assert.fail("Stroyeniye was not inputed");
@@ -283,7 +283,7 @@ public class RegistrationPageValueFive {
         try{
             adresDopolnitelniy.clear();
             adresDopolnitelniy.sendKeys(addressExtra);
-            log.info(addressExtra+" was inputed");
+            log.info(addressExtra+" Adres Dopolnitelniy was inputed");
         }catch (Exception e){
             log.info("Adres Dopolnitelniy was not inputed");
             Assert.fail("Adres Dopolnitelniy was not inputed");

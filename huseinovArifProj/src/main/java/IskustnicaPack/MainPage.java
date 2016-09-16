@@ -29,8 +29,10 @@ public class MainPage {
 
     public void OpenBrowserAndLoadMainPage() {
         try {
+            String waitImplicitly = getCfgValue("IMPLICITLY_WAIT");
+            long implicitlyWait = Long.parseLong(waitImplicitly);
             driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(implicitlyWait, TimeUnit.SECONDS);
             //driver.get("http://iskusnitsa.ru/");
             driver.get(getCfgValue("SITE_URL"));
             log.info("Browser and main page were opened");

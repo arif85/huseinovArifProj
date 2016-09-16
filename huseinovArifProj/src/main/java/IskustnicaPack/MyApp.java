@@ -14,6 +14,7 @@ public class MyApp {
     public RegistrationPageValueThree registrationPageValueThree;
     public RegistrationPageValueFour registrationPageValueFour;
     public RegistrationPageValueFive registrationPageValueFive;
+    public RegistrationPageNegativeTesting registrationPageNegativeTesting;
 
 public MyApp(WebDriver driver){
     this.driver = driver;
@@ -24,5 +25,6 @@ public MyApp(WebDriver driver){
     registrationPageValueThree = new RegistrationPageValueThree(driver);
     registrationPageValueFour = new RegistrationPageValueFour(driver);
     registrationPageValueFive = new RegistrationPageValueFive(driver);
+    registrationPageNegativeTesting = new RegistrationPageNegativeTesting(driver);
 }
 }

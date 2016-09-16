@@ -82,7 +82,7 @@ public class RegistrationPageValueFour {
 
     public void selectDeliveryPochtoyRossiiKuryeromVRegioniDomSKvartiory() {
         try {
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+           // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             deliveryType.click();
             log.info("Delivery type 'Pochtoy Rossii Kuryerom V Regioni Dom S Kvartiory' (radio button) was selected");
         } catch (Exception e) {
@@ -95,7 +95,7 @@ public class RegistrationPageValueFour {
         try {
             familia.click();
             familia.sendKeys(familiya);
-            log.info(familiya + " was inputed");
+            log.info(familiya + " Familia was inputed");
         } catch (Exception e) {
             log.info("Familia was not inputed");
             Assert.fail("Familia was not inputed");
@@ -106,7 +106,7 @@ public class RegistrationPageValueFour {
         try {
             imia.clear();
             imia.sendKeys(imya);
-            log.info(imya + " was inputed");
+            log.info(imya + " Imia was inputed");
         } catch (Exception e) {
             log.info("Imia was not inputed");
             Assert.fail("Imia was not inputed");
@@ -117,7 +117,7 @@ public class RegistrationPageValueFour {
         try {
             otchestvo.clear();
             otchestvo.sendKeys(ot4esvto);
-            log.info(ot4esvto + " was inputed");
+            log.info(ot4esvto + " Otchestvo was inputed");
         } catch (Exception e) {
             log.info("Otchestvo was not inputed");
             Assert.fail("Otchestvo was not inputed");
@@ -128,7 +128,7 @@ public class RegistrationPageValueFour {
         try {
             Select select = new Select(den);
             select.selectByVisibleText(day);
-            log.info(day + " was selected");
+            log.info(day + "den was selected");
         } catch (Exception e) {
             log.info("Failed to select den");
             Assert.fail("Failed to select den");
@@ -139,7 +139,7 @@ public class RegistrationPageValueFour {
         try {
             Select select = new Select(mesiac);
             select.selectByVisibleText(month);
-            log.info(month + " was selected");
+            log.info(month + " mesiac was selected");
         } catch (Exception e) {
             log.info("Failed to select mesiac");
             Assert.fail("Failed to select mesiac");
@@ -150,10 +150,10 @@ public class RegistrationPageValueFour {
         try {
             Select select = new Select(god);
             select.selectByVisibleText(year);
-            log.info(year + "was selected");
+            log.info(year + " god was selected");
         } catch (Exception e) {
-            log.info("Failed to select year");
-            Assert.fail("Failed to select year");
+            log.info("Failed to select god");
+            Assert.fail("Failed to select god");
         }
     }
 
@@ -161,7 +161,7 @@ public class RegistrationPageValueFour {
         try {
             pochta.clear();
             pochta.sendKeys(mail);
-            log.info(mail + " was inputed");
+            log.info(mail + " pochta was inputed");
         } catch (Exception e) {
             log.info("Pochta was not inputed");
             Assert.fail("Pochta was not inputed");
@@ -172,7 +172,7 @@ public class RegistrationPageValueFour {
         try {
             parol.clear();
             parol.sendKeys(passwd);
-            log.info(passwd + " was inputed");
+            log.info(passwd + " Parol was inputed");
         } catch (Exception e) {
             log.info("Parol was not inputed");
             Assert.fail("Parol was not inputed");
@@ -183,7 +183,7 @@ public class RegistrationPageValueFour {
         try {
             povtoriteParol.clear();
             povtoriteParol.sendKeys(repasswd);
-            log.info(repasswd + " was inputed");
+            log.info(repasswd + " Povtorite parol was inputed");
         } catch (Exception e) {
             log.info("Povtorite parol was not inputed");
             Assert.fail("Povtorite parol was not inputed");
@@ -194,7 +194,7 @@ public class RegistrationPageValueFour {
         try {
             mobilniyTelefon.clear();
             mobilniyTelefon.sendKeys(cellphone);
-            log.info(cellphone + " was inputed");
+            log.info(cellphone + " Telefon Mobilnniy was inputed");
         } catch (Exception e) {
             log.info("Telefon Mobilnniy was not inputed");
             Assert.fail("Telefon Mobilnniy was not inputed");
@@ -205,7 +205,7 @@ public class RegistrationPageValueFour {
         try {
             poshtoviyIndex.clear();
             poshtoviyIndex.sendKeys(postIndex);
-            log.info(postIndex + " was inputed");
+            log.info(postIndex + " Pochtoviy index was inputed");
         } catch (Exception e) {
             log.info("Pochtoviy index was not inputed");
             Assert.fail("Pochtoviy index was not inputed");
@@ -216,7 +216,7 @@ public class RegistrationPageValueFour {
         try {
             stranaOblastKray.clear();
             stranaOblastKray.sendKeys(region);
-            log.info(region + " was inputed");
+            log.info(region + " Strana,oblast,region were inputed");
         } catch (Exception e) {
             log.info("Strana,oblast,region were not inputed");
             Assert.fail("Strana,oblast,region were not inputed");
@@ -227,7 +227,7 @@ public class RegistrationPageValueFour {
         try {
             gorod.clear();
             gorod.sendKeys(town);
-            log.info(town + " was inputed");
+            log.info(town + " Gorod was inputed");
         } catch (Exception e) {
             log.info("Gorod was not inputed");
             Assert.fail("Gorod was not inputed");
@@ -238,7 +238,7 @@ public class RegistrationPageValueFour {
         try {
             ulica.clear();
             ulica.sendKeys(street);
-            log.info(street + " was inputed");
+            log.info(street + " Ulica was inputed");
         } catch (Exception e) {
             log.info("Ulica was not inputed");
             Assert.fail("Ulica was not inputed");
@@ -249,7 +249,7 @@ public class RegistrationPageValueFour {
         try {
             domNomer.clear();
             domNomer.sendKeys(houseNumber);
-            log.info(houseNumber + " was inputed");
+            log.info(houseNumber + " Dom(nomer) was inputed");
         } catch (Exception e) {
             log.info("Dom(nomer) was not inputed");
             Assert.fail("Dom(nomer) was not inputed");
@@ -259,17 +259,17 @@ public class RegistrationPageValueFour {
         try{
             korpusNomerIliProcherkEsliNet.clear();
             korpusNomerIliProcherkEsliNet.sendKeys(corpus);
-            log.info(corpus+" was inputed");
+            log.info(corpus+" 'KorpusNomer Ili Procherk Esli Net' was inputed");
         }catch (Exception e){
-            log.info("Korpus was not inputed");
-            Assert.fail("Korpus was not inputed");
+            log.info("'KorpusNomer Ili Procherk Esli Net' was not inputed");
+            Assert.fail("'KorpusNomer Ili Procherk Esli Net' was not inputed");
         }
     }
     public void inputTextIntoStroyeniyeField(String building){
         try{
             stroyeniyeNomerIliProcherkEsliNet.clear();
             stroyeniyeNomerIliProcherkEsliNet.sendKeys(building);
-            log.info(building+" was inputed");
+            log.info(building+" Stroyeniye was inputed");
         }catch (Exception e){
             log.info("Stroyeniye was not inputed");
             Assert.fail("Stroyeniye was not inputed");
@@ -279,7 +279,7 @@ public class RegistrationPageValueFour {
         try{
             kvartiraNomer.clear();
             kvartiraNomer.sendKeys(flatNumber);
-            log.info(flatNumber+ " was inputed");
+            log.info(flatNumber+ " Kvartira nomer was inputed");
         }catch (Exception e){
             log.info("Kvartira nomer was not inputed");
             Assert.fail("Kvartira nomer was not inputed");
@@ -289,7 +289,7 @@ public class RegistrationPageValueFour {
         try{
             adresDopolnitelniy.clear();
             adresDopolnitelniy.sendKeys(addressExtra);
-            log.info(addressExtra+" was inputed");
+            log.info(addressExtra+" Dopolnitelniy adres was inputed");
         }catch (Exception e ){
             log.info("Dopolnitelniy adres was not inputed");
             Assert.fail("Dopolnitelniy adres was not inputed");

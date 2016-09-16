@@ -65,9 +65,14 @@ public class RegistrationPageValueOne {
     }
 
     public void SelectDilevirySamovivoz() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        deliveryType.click();
-        log.info("Delivery type 'Samovivoz' (radio button) selected");
+        // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        try {
+            deliveryType.click();
+            log.info("Delivery type 'Samovivoz' (radio button) selected");
+        } catch (Exception e) {
+            log.info("Failed to select 'Samovivoz' (radio button)");
+            Assert.fail("Failed to select 'Samovivoz' (radio button)");
+        }
     }
 
     public void InputTextIntoFieldFamilia(String text) {

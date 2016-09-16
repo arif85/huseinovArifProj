@@ -74,7 +74,7 @@ public class RegistrationPageValueThree {
 
     public void selectDeliveryKuryeromMoskovskayaOblast() {
         try {
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             deliveryType.click();
             log.info("Delivery type 'Kuryerom Moskovskaya Oblast' (radio button) selected");
         } catch (Exception e) {
@@ -109,7 +109,7 @@ public class RegistrationPageValueThree {
         try {
             otchestvo.clear();
             otchestvo.sendKeys(ot4estvo);
-            log.info(ot4estvo + "otchestvo was inputed");
+            log.info(ot4estvo + " otchestvo was inputed");
         } catch (Exception e) {
             log.info("Otchestvo was not inputed");
             Assert.fail("Otchestvo was not inputed");

@@ -76,7 +76,7 @@ public class RegistrationPageValueTwo {
 
     public void selectDeliveryKuryeromMoskva() {
         try {
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             deliveryType.click();
             log.info("Delivery type 'Kuryerom Moskva' (radio button) selected");
         } catch (Exception e) {
@@ -232,7 +232,7 @@ public class RegistrationPageValueTwo {
         try {
             kakProyexat.clear();
             kakProyexat.sendKeys(KakProexat);
-            log.info(KakProexat + "kak proyexat was inputed");
+            log.info(KakProexat + " kak proyexat was inputed");
         } catch (Exception e) {
             log.info("kak proyexat text was not inputed");
             Assert.fail("kak proyexat text was not inputed");

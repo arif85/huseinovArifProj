@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="424bdb0c-90cf-4777-b746-a26e2c85ef18" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPackNew/MainPageLoad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPackNew/MyAppV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPackNew/RegistrationPageNegativeTestingV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPackNew/RegistrationPageValueFiveV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPackNew/RegistrationPageValueFourV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPackNew/RegistrationPageValueOneV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPackNew/RegistrationPageValueThreeV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPackNew/RegistrationPageValueTwoV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPackNew/SetupClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPackNew/RegistrationPageKuryeromMoskvaV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPackNew/RegistrationPageKuryeromMoskvockayaOblastV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPackNew/RegistrationPageNegativeTestV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPackNew/RegistrationPagePochtoyRossiiKuryeromVRegioniChastniyDomV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPackNew/RegistrationPagePochtoyRossiiKuryeromVRegioniDomSKvartiroyV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPackNew/RegistrationPageSamovivozV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPackNew/TestSuiteRegistrationOnIskustnicaRuV2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/qalight.log" afterPath="$PROJECT_DIR$/log/qalight.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/MainPage.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/MainPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageMessageSpasibo.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageMessageSpasibo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageNegativeTesting.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageNegativeTesting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueFive.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueFive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueFour.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueFour.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueOne.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueOne.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueThree.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueThree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueTwo.java" afterPath="$PROJECT_DIR$/src/main/java/IskustnicaPack/RegistrationPageValueTwo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageKuryeromMoskva.java" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageKuryeromMoskva.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageKuryeromMoskvockayaOblast.java" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageKuryeromMoskvockayaOblast.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPagePochtoyRossiiKuryeromVRegioniChastniyDom.java" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPagePochtoyRossiiKuryeromVRegioniChastniyDom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPagePochtoyRossiiKuryeromVRegioniDomSKvartiroy.java" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPagePochtoyRossiiKuryeromVRegioniDomSKvartiroy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageSamovivoz.java" afterPath="$PROJECT_DIR$/src/test/java/IskustnicaPack/RegistrationPageSamovivoz.java" />
     </list>
     <ignored path="huseinovArifProj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -937,7 +938,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474049856323</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="New Tests">
+      <created>1477570353048</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1477570353048</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -991,8 +998,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.88379705" sideWeight="0.31240544" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2749591" sideWeight="0.48789713" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.68759453" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2749591" sideWeight="0.48789713" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.68759453" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39411765" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34039333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1062,7 +1069,8 @@
     <MESSAGE value="Fixed Commit" />
     <MESSAGE value="Samovivoz test restored" />
     <MESSAGE value="Samovivoz test restored 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Samovivoz test restored 2" />
+    <MESSAGE value="New Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

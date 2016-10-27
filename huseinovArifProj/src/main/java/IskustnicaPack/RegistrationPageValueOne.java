@@ -42,9 +42,9 @@ public class RegistrationPageValueOne {
     WebElement povtoriteParol;
     @FindBy(name = "phone[mobil]")
     WebElement telefonMobilny;
-    @FindBy(xpath = ".//input[@value='<< Далее/Enter >>']")
+    @FindBy(id = "btnR")
     WebElement knopkaDaleeEnter;
-    @FindBy(xpath = ".//input[@value='Регистрировать']")
+    @FindBy(xpath = ".//table//td//input[@id='btnR' and @class='autor']")
     WebElement knopkaRegistirovat;
 
     public RegistrationPageValueOne(WebDriver driver) {

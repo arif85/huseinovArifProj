@@ -101,7 +101,7 @@ public class RegistrationPageKuryeromMoskvockayaOblast {
     @After
 
     public void closePageAndBrowser() {
-        myApp.registrationPageMessageSpasibo.CloseRegistrationPageAndWindow();
+        myApp.registrationPageMessageSpasibo.closeRegistrationPageAndWindow();
     }
 }
 

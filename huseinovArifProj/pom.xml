@@ -73,7 +73,7 @@
         <version>2.18.1</version>
         <configuration>
           <parallel>classes</parallel>
-          <threadCount>5</threadCount>
+          <threadCount>3</threadCount>
         </configuration>
       </plugin>
     </plugins>

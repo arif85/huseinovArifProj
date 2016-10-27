@@ -64,9 +64,9 @@ public class RegistrationPageValueFour {
     WebElement adresDopolnitelniy;
     @FindBy(name = "mailing")
     WebElement checkboxPodpiska;
-    @FindBy(xpath = ".//input[@value='<< Далее/Enter >>']")
+    @FindBy(id = "btnR")
     WebElement knopkaDaleeEnter;
-    @FindBy(xpath = ".//input[@value='Регистрировать']")
+    @FindBy(xpath = ".//table//td//input[@id='btnR' and @class='autor']")
     WebElement knopkaRegistirovat;
 
     public boolean isRegistrationPageLoaded() {

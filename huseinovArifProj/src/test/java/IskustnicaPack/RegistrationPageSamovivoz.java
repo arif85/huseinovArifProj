@@ -84,7 +84,7 @@ public class RegistrationPageSamovivoz {
     @After
     public void closePageAndBrowser() {
 
-        myApp.registrationPageMessageSpasibo.CloseRegistrationPageAndWindow();
+        myApp.registrationPageMessageSpasibo.closeRegistrationPageAndWindow();
     }
 
 }

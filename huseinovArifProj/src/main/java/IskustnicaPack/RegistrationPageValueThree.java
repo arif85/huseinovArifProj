@@ -50,9 +50,9 @@ public class RegistrationPageValueThree {
     WebElement dopolnitelniyAdress;
     @FindBy(name = "howadres_add")
     WebElement kakProyexatDopolnitelniyAdress;
-    @FindBy(xpath = ".//input[@value='<< Далее/Enter >>']")
+    @FindBy(id = "btnR")
     WebElement knopkaDaleeEnter;
-    @FindBy(xpath = ".//input[@value='Регистрировать']")
+    @FindBy(xpath = ".//table//td//input[@id='btnR' and @class='autor']")
     WebElement knopkaRegistirovat;
 
 

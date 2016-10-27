@@ -72,4 +72,5 @@ public class MainPage {
             Assert.fail("Failed to close WebPage and Browser");
         }
     }
+
 }

@@ -30,7 +30,7 @@ public class RegistrationPageMessageSpasibo {
         }
     }
 
-    public void CloseRegistrationPageAndWindow() {
+    public void closeRegistrationPageAndWindow() {
         try{
             driver.quit();
             log.info("WebPage and Browser closed");

@@ -1,6 +1,5 @@
 package IskustnicaPack;
 
-import javafx.beans.property.SimpleListProperty;
 import libs.SpreadsheetData;
 import org.junit.After;
 import org.junit.Assert;
@@ -111,6 +110,6 @@ public class RegistrationPagePochtoyRossiiKuryeromVRegioniChastniyDom {
 
     @After
     public void closePageAndBrowser() {
-        myApp.registrationPageMessageSpasibo.CloseRegistrationPageAndWindow();
+        myApp.registrationPageMessageSpasibo.closeRegistrationPageAndWindow();
     }
 }

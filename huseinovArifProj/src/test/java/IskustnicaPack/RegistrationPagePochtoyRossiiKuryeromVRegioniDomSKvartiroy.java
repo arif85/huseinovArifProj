@@ -112,7 +112,7 @@ public class RegistrationPagePochtoyRossiiKuryeromVRegioniDomSKvartiroy {
     }
     @After
     public void closePageAndBrowser(){
-        myApp.registrationPageMessageSpasibo.CloseRegistrationPageAndWindow();
+        myApp.registrationPageMessageSpasibo.closeRegistrationPageAndWindow();
     }
 
 

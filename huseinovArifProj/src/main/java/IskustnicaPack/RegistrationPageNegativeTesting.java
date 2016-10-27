@@ -16,7 +16,7 @@ public class RegistrationPageNegativeTesting {
 
     @FindBy(xpath = ".//img[@src='/images/10.gif']")
     WebElement isRegistrationPageLoad;
-    @FindBy(xpath = ".//input[@value='<< Далее/Enter >>']")
+    @FindBy(id = "btnR")
     WebElement knopkaDaleeEnter;
 
     public RegistrationPageNegativeTesting(WebDriver driver) {
@@ -41,8 +41,8 @@ public class RegistrationPageNegativeTesting {
             knopkaDaleeEnter.click();
             log.info("Knopka '<< Dalee/Enter >>' clicked ");
         } catch (Exception e) {
-            log.error("Failed to click button '<< Далее/Enter >>'");
-            Assert.fail("Failed to click button '<< Далее/Enter >>'");
+            log.error("Failed to click button '<< Dalee/Enter >>'");
+            Assert.fail("Failed to click button '<< Dalee/Enter >>'");
         }
     }
 

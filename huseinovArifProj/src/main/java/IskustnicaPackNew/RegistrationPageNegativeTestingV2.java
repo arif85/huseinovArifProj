@@ -6,9 +6,6 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by admin on 27.10.2016.
- */
 public class RegistrationPageNegativeTestingV2 extends SetupClass {
 
     Logger log;

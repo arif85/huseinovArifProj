@@ -1,6 +1,5 @@
 package IskustnicaPackNew;
 
-import IskustnicaPackNew.MyAppV2;
 import libs.SpreadsheetData;
 import org.junit.After;
 import org.junit.Assert;
@@ -43,11 +42,11 @@ public class RegistrationPagePochtoyRossiiKuryeromVRegioniChastniyDomV2 {
     String addressExtra;
 
     public RegistrationPagePochtoyRossiiKuryeromVRegioniChastniyDomV2(String familia, String imia, String otchestvo,
-                                                                    String den, String mesiac, String god, String pochta,
-                                                                    String pass, String repass, String cellphone,
-                                                                    String postIndex, String stranaOblastKray,
-                                                                    String city, String ulica, String dom, String korpus,
-                                                                    String stroyenie, String addressExtra) {
+                                                                      String den, String mesiac, String god, String pochta,
+                                                                      String pass, String repass, String cellphone,
+                                                                      String postIndex, String stranaOblastKray,
+                                                                      String city, String ulica, String dom, String korpus,
+                                                                      String stroyenie, String addressExtra) {
         super();
         this.familia = familia;
         this.imia = imia;

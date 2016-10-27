@@ -4,9 +4,6 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by admin on 27.10.2016.
- */
 public class RegistrationPageValueFiveV2 extends  SetupClass{
 
     private Logger log;

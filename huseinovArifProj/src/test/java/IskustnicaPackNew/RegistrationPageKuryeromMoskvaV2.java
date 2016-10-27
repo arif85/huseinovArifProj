@@ -1,6 +1,6 @@
 package IskustnicaPackNew;
 
-import IskustnicaPackNew.MyAppV2;
+
 import libs.SpreadsheetData;
 import org.junit.After;
 import org.junit.Assert;

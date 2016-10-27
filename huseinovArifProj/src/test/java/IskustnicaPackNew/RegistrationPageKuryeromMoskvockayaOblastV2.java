@@ -1,6 +1,6 @@
 package IskustnicaPackNew;
 
-import IskustnicaPackNew.MyAppV2;
+
 import libs.SpreadsheetData;
 import org.junit.After;
 import org.junit.Assert;
@@ -15,7 +15,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Collection;
+
 import static libs.ConfigData.getCfgValue;
+
 @RunWith(value = Parameterized.class)
 public class RegistrationPageKuryeromMoskvockayaOblastV2 {
     WebDriver driver = new ChromeDriver();
@@ -39,9 +41,9 @@ public class RegistrationPageKuryeromMoskvockayaOblastV2 {
     String howAddressExtra;
 
     public RegistrationPageKuryeromMoskvockayaOblastV2(String familia, String imia, String otchestvo, String den, String mesiac,
-                                                     String god, String email, String pass, String repass, String cellphone,
-                                                     String homeOrWorkPhone, String extraPhone, String address, String howaddress,
-                                                     String addressExtra, String howAddressExtra) {
+                                                       String god, String email, String pass, String repass, String cellphone,
+                                                       String homeOrWorkPhone, String extraPhone, String address, String howaddress,
+                                                       String addressExtra, String howAddressExtra) {
         super();
         this.familia = familia;
         this.imia = imia;

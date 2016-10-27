@@ -2,9 +2,6 @@ package IskustnicaPackNew;
 
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by admin on 02.09.2016.
- */
 public class MyAppV2 {
     WebDriver driver;
     public MainPageLoad mainPageLoad;

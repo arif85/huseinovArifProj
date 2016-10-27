@@ -5,9 +5,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import java.util.concurrent.TimeUnit;
-
 import static libs.ConfigData.getCfgValue;
 
 
@@ -49,8 +47,6 @@ public class MainPageLoad extends SetupClass {
         }
 
     }
-
-
 
 
     public boolean isMainPageLoaded() {

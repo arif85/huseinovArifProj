@@ -1,7 +1,6 @@
 package IskustnicaPackNew;
 
 
-import IskustnicaPackNew.MyAppV2;
 import libs.SpreadsheetData;
 import org.junit.After;
 import org.junit.Assert;
@@ -46,46 +45,49 @@ public class RegistrationPagePochtoyRossiiKuryeromVRegioniDomSKvartiroyV2 {
     String addressExtra;
 
     public RegistrationPagePochtoyRossiiKuryeromVRegioniDomSKvartiroyV2(String familia, String imia, String otchestvo, String den,
-                                                                      String mesiac, String god, String pochta, String pass,
-                                                                      String repass, String cellphone, String postIndex,
-                                                                      String stranaOblasKray, String city, String ulica,
-                                                                      String dom, String korpus, String stroyeniye,
-                                                                      String kvartira, String addressExtra){
+                                                                        String mesiac, String god, String pochta, String pass,
+                                                                        String repass, String cellphone, String postIndex,
+                                                                        String stranaOblasKray, String city, String ulica,
+                                                                        String dom, String korpus, String stroyeniye,
+                                                                        String kvartira, String addressExtra) {
         super();
-        this.familia=familia;
-        this.imia=imia;
-        this.otchestvo=otchestvo;
-        this.den=den;
-        this.mesiac=mesiac;
-        this.god=god;
-        this.pochta=pochta;
-        this.pass=pass;
-        this.repass=repass;
-        this.cellphone=cellphone;
-        this.postIndex=postIndex;
-        this.stranaOblasKray=stranaOblasKray;
-        this.city=city;
-        this.ulica=ulica;
-        this.dom=dom;
-        this.korpus=korpus;
-        this.stroyeniye=stroyeniye;
-        this.kvartira=kvartira;
-        this.addressExtra=addressExtra;
+        this.familia = familia;
+        this.imia = imia;
+        this.otchestvo = otchestvo;
+        this.den = den;
+        this.mesiac = mesiac;
+        this.god = god;
+        this.pochta = pochta;
+        this.pass = pass;
+        this.repass = repass;
+        this.cellphone = cellphone;
+        this.postIndex = postIndex;
+        this.stranaOblasKray = stranaOblasKray;
+        this.city = city;
+        this.ulica = ulica;
+        this.dom = dom;
+        this.korpus = korpus;
+        this.stroyeniye = stroyeniye;
+        this.kvartira = kvartira;
+        this.addressExtra = addressExtra;
     }
+
     @Parameterized.Parameters
-    public static Collection testData() throws IOException{
+    public static Collection testData() throws IOException {
         InputStream spreadsheet = new FileInputStream(getCfgValue("DATA_FILE"));
-        return new SpreadsheetData(spreadsheet,"KuryeromRossiaDomKvartira").getData();
+        return new SpreadsheetData(spreadsheet, "KuryeromRossiaDomKvartira").getData();
     }
+
     @Before
-    public void mainPageLoad() throws Exception{
+    public void mainPageLoad() throws Exception {
         myAppV2.mainPageLoad.openBrowser();
         myAppV2.mainPageLoad.loadMainPage();
         Assert.assertTrue("Wrong URL inputed", myAppV2.mainPageLoad.isMainPageLoaded());
         myAppV2.mainPageLoad.goToRegistrationPage();
     }
+
     @Test
-    public void registrationPagePochtoyRossiiKuryeromVRegioniV2(){
+    public void registrationPagePochtoyRossiiKuryeromVRegioniV2() {
         myAppV2.registrationPageValueFourV2.isRegistrationPageLoad();
         myAppV2.registrationPageValueFourV2.selectDeliveryPochtoyRossiiKuryeromVRegioniDomSKvartiory();
         myAppV2.registrationPageValueFourV2.inputTextIntoFamiliaField(familia);
@@ -110,10 +112,11 @@ public class RegistrationPagePochtoyRossiiKuryeromVRegioniDomSKvartiroyV2 {
         myAppV2.registrationPageValueFourV2.uncheckCheckBoxRassilka();
         myAppV2.registrationPageValueFourV2.pressButtonDaleeEnter();
         myAppV2.registrationPageValueFourV2.pressButtonRegistrirovat();
-        Assert.assertTrue("Registration failed",myAppV2.registrationPageValueFourV2.isMessageSpasiboLoaded());
+        Assert.assertTrue("Registration failed", myAppV2.registrationPageValueFourV2.isMessageSpasiboLoaded());
     }
+
     @After
-    public void closePageAndBrowser(){
+    public void closePageAndBrowser() {
         myAppV2.registrationPageValueFourV2.closeRegistrationPageAndWindow();
     }
 
